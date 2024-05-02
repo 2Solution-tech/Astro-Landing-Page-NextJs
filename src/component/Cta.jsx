@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 export function Cta() {
@@ -34,9 +35,9 @@ export function Cta() {
           </div>
         </div>
         <div className="w-full lg:w-1/2">
-          <img
+          <Image
             src="https://images.unsplash.com/photo-1515942661900-94b3d1972591?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8YXN0cm9sb2d5fGVufDB8fDB8fHww"
-            alt="ManWith Laptop"
+            alt="ManWith Laptop" height={300} width={300}
             className="h-full w-full rounded-md object-cover"
           />
         </div>

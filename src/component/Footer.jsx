@@ -1,4 +1,5 @@
 import { ChevronRight } from 'lucide-react'
+import Image from 'next/image'
 import React from 'react'
 
 export function Footer() {
@@ -7,7 +8,7 @@ export function Footer() {
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-8">
       <div class="lg:flex lg:items-center">
         <a href="javascript:void(0)">
-          <img src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class="w-52" />
+          <Image src="https://readymadeui.com/readymadeui-light.svg" alt="logo" class="w-52" height={300} width={300}/>
         </a>
       </div>
 
