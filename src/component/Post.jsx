@@ -82,8 +82,8 @@ const posts = [
         <div className="mx-auto max-w-7xl px-6 lg:px-8">
           
           <div className="mx-auto w-full lg:mx-0">
-            <h2 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">” FEEL THE SOUL WITH GYANENDER ACHARYA”</h2>
-            <p className="mt-2 text-lg leading-8 text-gray-600 lg:ml-4">
+            <h2 className="text-2xl font-bold tracking-tight sm:text-4xl text-red-600 bold">” FEEL THE SOUL WITH GYANENDER ACHARYA”</h2>
+            <p className="mt-2 text-lg leading-8 text-red-600 lg:ml-4">
             वक्रतुण्ड महाकाय सूर्यकोटि समप्रभ। 
             निर्विघ्नं कुरु मे देव सर्वकार्येषु सर्वदा॥
             </p>

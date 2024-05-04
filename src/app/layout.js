@@ -3,6 +3,7 @@ import { Inter } from 'next/font/google';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './globals.css';
 import WhatsAppFloatButton from '@/component/FloatWhatsapp';
+import FixedCallButton from '@/component/FixedCall';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -20,8 +21,10 @@ export default function RootLayout({ children }) {
         
       </head>
       <body className={inter.className}>
+      <FixedCallButton/>
         <WhatsAppFloatButton/>
-        {children}</body>
+        {children}
+        </body>
     </html>
   );
 }
