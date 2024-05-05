@@ -22,7 +22,7 @@ const Features = () => {
             <h3 class="text-xl font-semibold mb-2">GF|BF Problems</h3>
             <p class="text-gray-500 text-sm">Today it is common to face problems in a love relationship. Now a boy and girl could use astrology to remove the troubles that arise among them and make relationship well..</p>
           </div>
-          <Image src="https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg?auto=compress&cs=tinysrgb&w=600" class="w-full object-contain rounded-xl" height={400} width={400} />
+          <Image src="https://images.pexels.com/photos/1415131/pexels-photo-1415131.jpeg?auto=compress&cs=tinysrgb&w=600" alt='test' class="w-full object-contain rounded-xl" height={400} width={400} />
         </div>
         <div class="grid md:grid-cols-2 gap-14">
           <div>

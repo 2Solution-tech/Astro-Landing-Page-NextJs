@@ -1,16 +1,17 @@
 
 import AnnimationsFooter from "@/component/AnnimationFooter";
-import Annimations, { SwipeCarousel } from "@/component/Annimations";
-import  ShuffleHero, {  HeroOne } from "@/component/Carousel";
+import Annimations  from "@/component/Annimations";
+import  ShuffleHero from "@/component/Carousel";
 import Category from "@/component/Category";
-import Features, {  Cta } from "@/component/Cta";
+import Features from "@/component/Cta";
 import { Faq } from "@/component/Faqs";
-import FixedCallButton from "@/component/FixedCall";
-import Footer2, { Footer } from "@/component/Footer";
+import Footer2 from "@/component/Footer";
+
 import { Navbar } from "@/component/Navbar";
 import Post from "@/component/Post";
 import Pricing from "@/component/Pricing";
 import { TextParallaxContentExample } from "@/component/Scrollable";
+import Testimonial from "@/component/Testimonial";
 
 
 
@@ -18,15 +19,15 @@ export default function Home() {
   return (
     <main className="relative " >
      
-     <Navbar/>
+     <Navbar/>  
      <Annimations/>
-     <ShuffleHero/>
-   
+     <ShuffleHero/>  
     <Features/>
     <Post/>
     <Pricing/>
     <TextParallaxContentExample/>
     <Category/>
+    <Testimonial/>
     <Faq/>
     <AnnimationsFooter/>
     <Footer2/>
