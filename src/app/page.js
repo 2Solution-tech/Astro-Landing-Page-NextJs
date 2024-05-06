@@ -22,8 +22,8 @@ export default function Home() {
     <main className="relative " >
      <MarqueeComponent2/>
      <Navbar/> 
-     <MarqueeComponent/> 
      <Annimations/>
+     <MarqueeComponent/> 
      <ShuffleHero/>  
     <Features/>
     <Post/>
