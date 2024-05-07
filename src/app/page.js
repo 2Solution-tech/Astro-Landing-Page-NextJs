@@ -24,7 +24,7 @@ export default function Home() {
      <Navbar/> 
      <Annimations/>
      <MarqueeComponent/> 
-     <ShuffleHero/>  
+      
     <Features/>
     <Post/>
     <Pricing/>
