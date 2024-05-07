@@ -6,8 +6,10 @@ const Footer2 = () => {
     <div>
       <footer class="bg-[#FF5733] py-6 px-16 font-sans text-black bold">
       <div class="flex justify-between items-center max-lg:flex-col text-center flex-wrap gap-4">
-        <p class="text-[15px] leading-loose">© 2024<a href='https://readymadeui.com/' target='_blank'
-          class="hover:underline mx-1">Astro Solution</a>All Rights Reserved.</p>
+        <p class="text-[15px] leading-loose">© 2024<Link href={'www.trustedastrologerbabaji.com'} target='_blank'
+          class="hover:underline mx-1">Astrologer Babaji</Link>
+          
+          <Link href={"https://2solution.in/" }>Developed by 2Solution</Link></p>
 
         <ul class="flex space-x-6 gap-y-2 max-lg:justify-center flex-wrap">
           <li><a href="javascript:void(0)" class="text-[15px] hover:text-white">Terms of Service</a></li>
