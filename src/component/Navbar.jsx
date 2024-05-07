@@ -5,16 +5,16 @@ import { Menu, X } from 'lucide-react'
 
 const menuItems = [
   {
-    name: 'Home',
-    href: '/',
+    name: 'Chat Now',
+    href: 'https://wa.link/mck9z4',
   },
   {
     name: 'Call Now',
-    href: '#',
+    href: `tel:${9929469736}`,
   },
   {
-    name: 'Chat Now',
-    href: '#',
+    name: 'Email Now',
+    href: "mailto: panditrkshastri666@gmail.com",
   },
 ]
 

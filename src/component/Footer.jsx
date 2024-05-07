@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const Footer2 = () => {
@@ -11,7 +12,7 @@ const Footer2 = () => {
         <ul class="flex space-x-6 gap-y-2 max-lg:justify-center flex-wrap">
           <li><a href="javascript:void(0)" class="text-[15px] hover:text-white">Terms of Service</a></li>
           <li><a href="javascript:void(0)" class="text-[15px] hover:text-white">Privacy Policy</a></li>
-          <li><a href="javascript:void(0)" class="text-[15px] hover:text-white">Contact</a></li>
+          <li><Link href={'https://wa.link/mck9z4'} class="text-[15px] hover:text-white">Chat Now</Link></li>
         </ul>
       </div>
     </footer>
