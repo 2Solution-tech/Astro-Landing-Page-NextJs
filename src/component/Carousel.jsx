@@ -15,6 +15,7 @@ const ShuffleHero = () => {
         <p className="text-base md:text-lg text-slate-700 my-4 md:my-6">
         Astrologer Aghori Baba Ji is well known spiritual astrologer who is much famous for helping people around the world with his services. He knows that his services could help a person to get rid of all the troubles of the life.
         </p>
+        
         <button className="bg-indigo-500 text-white font-medium py-2 px-4 rounded transition-all hover:bg-indigo-600 active:scale-95">
           Call Now
         </button>
