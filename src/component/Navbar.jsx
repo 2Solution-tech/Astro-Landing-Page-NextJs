@@ -8,11 +8,11 @@ import logo from '../../public/logo.png'
 const menuItems = [
   {
     name: 'Chat Now',
-    href: 'https://wa.link/mck9z4',
+    href: 'https://wa.link/upsctx',
   },
   {
     name: 'Call Now',
-    href: `tel:${9929469736}`,
+    href: `tel:${9499475794}`,
   },
   {
     name: 'Email Now',
